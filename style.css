@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+
+
+/*  Navigation CSS Bar Starts Here  */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  background-color: #333;
+  fill-opacity: 5%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  border-radius: 5%;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+/*  Navigation CSS Bar End Here  */
+
+
+/*  Banner CSS Starts Here  */
+.Banner {
+  position: relative;
+  text-align: center;
+  font-size: 7.9rem;
+  z-index: -1;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  height: 800px;
+}
+
+.centered {
+ margin-top: -600px;
+ margin-bottom: 400px;
+ /* top: 50%;
+  left: 50%;
+  text-shadow: 4px 4px 9px  #ffb300;*/
+}
+
+.centered h1 {
+  text-align: center;
+  text-shadow: 4px 4px 9px  #ffb300;
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/*  Banner CSS End Here  */
+
+/*   Features CSS Starts Here */
+
+.menu h2 {
+    text-align: center;
+    color: #111;
+    font-size: 5rem;
+    padding-bottom: -150px;
+}
+
+.menu p {
+   text-align: center;
+    color: #111;
+    font-size: 30px;
+    margin-top: -70px;
+}
+
+.column h3 {
+  font-size: 30px;
+}
+
+.column p {
+  font-size: 20px;
+}
+
+.Features {
+    margin-left: 180px;
+    padding: 40px 0px 130px 0px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Features img {
+    width: 360px;
+    height: 300px;
+}
+/*   Features CSS End Here */
+
+
+/* Pargraph CSS Start Here */
+.Info {
+    width: 1400px;
+    margin-top: 100px;
+    padding: 100px 200px 100px 200px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Info .socila-link-list {
+   display: flex;
+   gap: 25px;
+   justify-content: center;
+}
+
+.Info .socila-link-list .socila-link {
+   color: white;
+   font-size: var(--font-size-1);
+   transition: 0.2s ease;
+}
+
+.Info .socila-link-list .socila-link:hover {
+   color: blue;
+}
+
+.background {
+    background-color: #333;
+}
+
+/* Pargraph CSS End Here */
+
+/*Specials css starts here*/
+
+.weekend {
+    margin-left: 180px;
+    padding: 40px 0px 100px 0px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.specials img {
+  width: 100%;
+  height: 500px;
+}
+
+.weekend img {
+    width: 360px;
+    height: 300px;
+}
+
+.bg {
+  margin-top: -5px;
+  background-color: #DC4D01;
+  margin-bottom: 100px;
+  padding-bottom: 130px;
+}
+/*Specials css end here*/
+
+/*Contacts Footer css starts here*/
+
+.cover {
+  background-color: aliceblue;
+  margin-top: -100px;
+  padding-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+
+  .footer {
+    background: linear-gradient(135deg, #667eea, aliceblue);
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-section {
+    flex: 1 1 300px;
+    margin: 10px 20px;
+  }
+  .footer h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+  .footer p, address {
+    line-height: 1.6;
+    font-size: 1rem;
+    max-width: 320px;
+  }
+  .social-icons {
+    margin-top: 20px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #ffffff;
+        min-height: 100px;
+  }
+  button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: #333;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #e6b800;
+  }
+  @media (max-width: 650px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-section {
+      margin: 20px auto;
+    }
+    form {
+      margin: 0 auto;
+    }
+  }
+/*Contacts Footer css end here*/
